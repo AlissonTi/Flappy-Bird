@@ -1,0 +1,39 @@
+1°) A diferença entre microprocessador e microcontrolador é que o microprocessador é uma unidade central de processamento (CPU) que executa instruções e processa dados em sistemas digitais, enquanto o microcontrolador é um circuito integrado que combina microprocessador, memória e periféricos de entrada/saída em um único chip.
+
+2°)**1. Configuração do ambiente de desenvolvimento:**
+   - Escolha um ambiente de desenvolvimento integrado (IDE) para programar o microcontrolador, como o MPLAB X IDE.
+   - Selecione o modelo específico do microcontrolador PIC que você está usando.
+
+**2. Inclusão de bibliotecas e configuração de clock:**
+   - Inclua as bibliotecas necessárias para o seu projeto, como as bibliotecas de entrada/saída (I/O) e interrupções.
+   - Configure as opções do sistema, incluindo a configuração do clock. A frequência do clock afeta o tempo de execução do programa.
+
+**3. Configuração de portas de I/O:**
+   - Use registradores específicos para configurar a direção das portas de I/O como entrada ou saída.
+
+
+**4. Configuração de pinos específicos:**
+   - Configure características específicas dos pinos, como resistores pull-up/pull-down e modos analógicos/digitais.
+
+
+**5. Habilitação de interrupções:**
+   - Configure e habilite interrupções conforme necessário.
+
+
+**6. Manipulação de registradores especiais:**
+   - Use registradores especiais para configurar e controlar módulos periféricos, como UART, SPI ou I2C.
+
+
+**7. Loop principal:**
+   - Implemente o código principal dentro de um loop infinito.
+
+
+Estas são diretrizes gerais, e a implementação exata pode variar com base no modelo específico do microcontrolador PIC, bem como na linguagem de programação utilizada (por exemplo, assembly ou C). Consulte sempre a documentação do fabricante e os datasheets do microcontrolador específico para obter informações detalhadas sobre os registradores e as configurações disponíveis.
+
+3°) Periféricos são dispositivos que se conectam ao microcontrolador PIC para ampliar suas funcionalidades e interagir com o ambiente externo. Alguns exemplos de periféricos no microcontrolador são:
+	
+	-> Conversor analógico-digital (ADC);
+	-> Temporizador/contador (TMR);
+	-> Módulo de captura/comparação/PWM (CCP);
+	-> Interrupção;
+	-> Comunicação serial.
